@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.home__description {
+  font-size: 30px;
+}
+
+.home__ascii {
+  cursor: pointer;
+}
+
+.home__link {
+  display: flex;
+  justify-content: flex-end;
+  color: #ffffff;
+}
+
+.home__link:hover {
+  color: rgb(215, 124, 44);
+}
